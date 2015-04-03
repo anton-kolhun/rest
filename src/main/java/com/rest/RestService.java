@@ -15,7 +15,7 @@ public class RestService {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Person printWelcome() {
-        return new Person("anton", "kolhun", new Date());
+        return new Person("anton", "kolhun", new Date(), new Date());
     }
 
 }
