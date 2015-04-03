@@ -54,24 +54,6 @@
             <version>${spring.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>2.5</version>
-        </dependency>
-
-        <dependency>
-            <groupId>javax.servlet.jsp</groupId>
-            <artifactId>jsp-api</artifactId>
-            <version>2.1</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
 
         <dependency>
             <groupId>org.springframework</groupId>
@@ -87,12 +69,6 @@
             <scope>test</scope>
         </dependency>
 
-       <!-- <dependency>
-            <groupId>com.sun.jersey.jersey-test-framework</groupId>
-            <artifactId>jersey-test-framework-core</artifactId>
-            <version>1.9</version>
-            <scope>test</scope>
-        </dependency>-->
 
         <dependency>
             <groupId>com.sun.jersey.jersey-test-framework</groupId>
@@ -107,8 +83,24 @@
             <version>1.18.3</version>
         </dependency>
 
-    </dependencies>
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-json</artifactId>
+            <version>1.18.3</version>
+        </dependency>
 
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.13</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-core-asl</artifactId>
+            <version>1.9.13</version>
+        </dependency>
+
+    </dependencies>
 
 
     <build>

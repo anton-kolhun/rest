@@ -39,9 +39,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.1.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet.jsp:jsp-api:2.1" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.1.4.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:4.1.4.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.8.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.sun.jersey.jersey-test-framework:jersey-test-framework-grizzly:1.18.3" level="project" />
@@ -53,12 +50,23 @@
     <orderEntry type="library" scope="TEST" name="Maven: com.sun.grizzly:grizzly-rcm:1.9.45" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.sun.grizzly:grizzly-portunif:1.9.45" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.sun.grizzly:grizzly-http-servlet:1.9.45" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.sun.jersey.jersey-test-framework:jersey-test-framework-core:1.18.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: javax.servlet:javax.servlet-api:3.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.sun.jersey:jersey-client:1.18.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.sun.jersey:jersey-grizzly:1.18.3" level="project" />
     <orderEntry type="library" name="Maven: com.sun.jersey:jersey-bundle:1.18.3" level="project" />
     <orderEntry type="library" name="Maven: javax.ws.rs:jsr311-api:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.jersey:jersey-json:1.18.3" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jettison:jettison:1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-impl:2.2.3-1" level="project" />
+    <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.2.2" level="project" />
+    <orderEntry type="library" name="Maven: javax.xml.stream:stax-api:1.0-2" level="project" />
+    <orderEntry type="library" name="Maven: javax.activation:activation:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-jaxrs:1.9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-xc:1.9.2" level="project" />
   </component>
 </module>
 

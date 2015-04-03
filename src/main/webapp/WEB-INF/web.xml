@@ -1,9 +1,9 @@
 <web-app version="2.4"
-	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+         xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
 	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
-	<display-name>Spring MVC Application</display-name>
+    <display-name>Spring MVC Application</display-name>
 
     <context-param>
         <param-name>contextConfigLocation</param-name>
@@ -22,11 +22,17 @@
             <param-value>com.rest</param-value>
         </init-param>
 
+        <init-param>
+            <param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
+            <param-value>true</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+
     </servlet>
 
-	<servlet-mapping>
-		<servlet-name>jersey-serlvet</servlet-name>
-		<url-pattern>/rest/*</url-pattern>
+    <servlet-mapping>
+        <servlet-name>jersey-serlvet</servlet-name>
+        <url-pattern>/rest/*</url-pattern>
 
-	</servlet-mapping>
+    </servlet-mapping>
 </web-app>
