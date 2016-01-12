@@ -19,8 +19,6 @@ import org.springframework.web.context.ContextLoaderListener;
 public class ITRestService extends JerseyTest {
 
 
-
-
     @Test
     public void testPrintWelcome() {
         String response  = target().path("/test/").request().get(String.class);
