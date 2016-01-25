@@ -22,7 +22,7 @@ public class RestService {
     @POST
     //@Produces(MediaType.APPLICATION_JSON)
     public String postWelcome() {
-        return "xzdadada";
+        return "xzdadadahjhj";
     }
 
 
