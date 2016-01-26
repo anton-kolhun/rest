@@ -15,7 +15,7 @@ public class CustomProvider extends JacksonJaxbJsonProvider {
     private TestComponent testComponent;
 
     public CustomProvider() {
-        System.out.println("gd");
+        System.out.println("gdaaaaa");
     }
 
 }
